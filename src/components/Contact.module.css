@@ -1,0 +1,67 @@
+.img{
+    width: 25px;
+    height: 25px;
+}
+
+.img:hover{
+    filter: invert(17%) sepia(94%) saturate(5781%) hue-rotate(357deg) brightness(105%) contrast(117%);
+}
+
+.editIcon{
+    color: var(--accent);
+    margin-right: 10px;
+    filter: invert(67%) sepia(4%) saturate(3142%) hue-rotate(57deg) brightness(106%) contrast(140%) ;
+}
+
+.editIcon:hover{
+    filter: drop-shadow(0px 0px 10px var(--accent));
+}
+
+.trashIcon{
+    color: #ff0000;
+}
+
+.trashIcon:hover{
+    filter: drop-shadow(0px 0px 10px red);
+}
+
+.iconWrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+}
+
+.wrapper{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 10px;
+    border-bottom: 0.3px solid black;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.userIcon{
+    width: 35px;
+    height: 35px;
+}
+
+.textWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1 0;
+    margin-left: 10px;
+}
+
+.nameText{
+    font-size: 24px;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: var(--primary);
+}
+
+.numberText{
+    font-weight: lighter;
+    font-size: 20px;
+    color: var(--secondary-dark);
+}
