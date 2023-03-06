@@ -41,8 +41,8 @@ const NewContact = () => {
       alert('Form cannot be empty')
       return
     }
-    if (contact.number.length < 6) {
-      alert('Number must be greater than 6 characters')
+    if (contact.number.length < 11) {
+      alert('Number must be greater than 11 characters')
       return
     }
 
@@ -79,7 +79,7 @@ const NewContact = () => {
         <input
           type='tel'
           name='number'
-          placeholder='000'
+          placeholder='+2340000000000'
           value={contact.number}
           className={styles.input}
           onChange={handleChange}
